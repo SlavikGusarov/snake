@@ -148,7 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CoinTile.h" />
+    <ClInclude Include="FoodTile.h" />
     <ClInclude Include="GameController.h" />
     <ClInclude Include="ICollectable.h" />
     <ClInclude Include="IWallable.h" />
@@ -160,7 +160,7 @@
     <ClInclude Include="WallTile.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CoinTile.cpp" />
+    <ClCompile Include="FoodTile.cpp" />
     <ClCompile Include="GameController.cpp" />
     <ClCompile Include="snake.cpp" />
     <ClCompile Include="PlayerTile.cpp" />

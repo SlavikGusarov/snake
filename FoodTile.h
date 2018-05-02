@@ -3,10 +3,10 @@
 
 
 
-class CoinTile : public Tile
+class FoodTile : public Tile
 {
 public:
-	CoinTile();
+	FoodTile();
 	virtual bool isWall();
 	virtual int collect();
 };

@@ -7,3 +7,4 @@ bool SpotTile::isWall(){
 	return false;
 
 	}
+ 
