@@ -90,15 +90,18 @@ void GameController::move()
 void GameController::print()
 {
 	system("cls");
+	std::cout << "------------" << '\n';
 	// range base 
 	for (std::vector<Tile*> tiles : m_tiles)
 	{
+		std::cout << '|';
 		for (Tile* tile : tiles)
 		{
 			tile->print();
 		}
-		std::cout << "\n";
+		std::cout << '|' << "\n";
 	}
+	std::cout << "------------";
 }
 
 
