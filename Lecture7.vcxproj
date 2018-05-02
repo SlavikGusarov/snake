@@ -22,8 +22,9 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{B56E1AC7-AACB-4B63-844F-8E646DC2423C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Lecture7</RootNamespace>
+    <RootNamespace>snake</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>snake</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -161,7 +162,7 @@
   <ItemGroup>
     <ClCompile Include="CoinTile.cpp" />
     <ClCompile Include="GameController.cpp" />
-    <ClCompile Include="Lecture7.cpp" />
+    <ClCompile Include="snake.cpp" />
     <ClCompile Include="PlayerTile.cpp" />
     <ClCompile Include="SpotTile.cpp" />
     <ClCompile Include="stdafx.cpp">
